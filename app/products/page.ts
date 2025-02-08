@@ -24,7 +24,7 @@ interface Product {
 }
 
 
-const produtCards: React.FC = () => {
+//const produtCards: React.FC = () => {
     const [products, setProducts] =  useState<Product[]>([]);
     const [cart, setCart] = useState<Product[]>([]);
 
@@ -60,4 +60,3 @@ const produtCards: React.FC = () => {
     },[]);
 
     
-}
